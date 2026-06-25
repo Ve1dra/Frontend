@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            list-style: none;
+        }
+        nav ul{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav li:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li onclick="changePage(0)">Home</li>
+            <li onclick="changePage(1)">About</li>
+            <li onclick="changePage(2)">Contact us</li>
+        </ul>
+    </nav>
+    <main>
+        <section class="page">
+            <h1>Home Page</h1>
+            <p>This is the home page</p>
+        </section>
+        <section class="page">
+            <h1>About us</h1>
+            <p>Use google to know about us!</p>
+        </section>
+        <section class="page">
+            <h1>Contact us</h1>
+            <p>Only reach out to us if it's not billing!</p>
+        </section>
+
+    </main>
+    <footer>Footer section of the site</footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>

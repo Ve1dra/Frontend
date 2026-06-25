@@ -1,0 +1,39 @@
+button{
+    cursor: pointer;
+}
+#switch{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 30px;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+main{
+    display: grid;
+    place-items: center;
+    border: 1px solid black;
+    width: 50vw;
+}
+
+.light{
+    background-color: 'white';
+    color: black;
+    font-size: 3rem;
+}
+.dark{
+    background-color: 'black';
+    color: white;
+    font-size: 1rem;
+
+}
